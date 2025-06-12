@@ -7,3 +7,4 @@ pydantic
 langchain_groq
 streamlit
 requests
+docx2txt
