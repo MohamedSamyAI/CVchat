@@ -161,7 +161,7 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
 
 # Chat input using Streamlit's chat_input
-if prompt := st.chat_input("Ask about my CV..."):
+if prompt := st.chat_input("Ask me anything..."):
     # Add user message to chat history
     st.session_state.messages.append({"role": "user", "content": prompt})
     
