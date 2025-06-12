@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-docx
+langdetect
+python-dotenv
+pydantic
+langchain_groq
+streamlit
+requests
